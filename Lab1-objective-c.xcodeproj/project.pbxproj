@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2AD642A021416AE40002C423 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD6429F21416AE40002C423 /* main.m */; };
+		2AD642A721417F5C0002C423 /* uppercase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD642A621417F5B0002C423 /* uppercase.m */; };
+		2AD642A921417F940002C423 /* lowercase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD642A821417F940002C423 /* lowercase.m */; };
+		2AD642AB2141801D0002C423 /* numberize.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD642AA2141801D0002C423 /* numberize.m */; };
+		2AD642AD214181F80002C423 /* canadianize.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD642AC214181F80002C423 /* canadianize.m */; };
+		2AD642AF2141844C0002C423 /* respond.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD642AE2141844C0002C423 /* respond.m */; };
+		2AD642B121418AD40002C423 /* replace.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD642B021418AD40002C423 /* replace.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +29,12 @@
 
 /* Begin PBXFileReference section */
 		2AD6429C21416AE40002C423 /* Lab1-objective-c */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lab1-objective-c"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2AD6429F21416AE40002C423 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2AD642A621417F5B0002C423 /* uppercase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = uppercase.m; sourceTree = "<group>"; };
+		2AD642A821417F940002C423 /* lowercase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lowercase.m; sourceTree = "<group>"; };
+		2AD642AA2141801D0002C423 /* numberize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = numberize.m; sourceTree = "<group>"; };
+		2AD642AC214181F80002C423 /* canadianize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = canadianize.m; sourceTree = "<group>"; };
+		2AD642AE2141844C0002C423 /* respond.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = respond.m; sourceTree = "<group>"; };
+		2AD642B021418AD40002C423 /* replace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = replace.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +67,12 @@
 		2AD6429E21416AE40002C423 /* Lab1-objective-c */ = {
 			isa = PBXGroup;
 			children = (
-				2AD6429F21416AE40002C423 /* main.m */,
+				2AD642A621417F5B0002C423 /* uppercase.m */,
+				2AD642A821417F940002C423 /* lowercase.m */,
+				2AD642AA2141801D0002C423 /* numberize.m */,
+				2AD642AC214181F80002C423 /* canadianize.m */,
+				2AD642AE2141844C0002C423 /* respond.m */,
+				2AD642B021418AD40002C423 /* replace.m */,
 			);
 			path = "Lab1-objective-c";
 			sourceTree = "<group>";
@@ -118,7 +133,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AD642A021416AE40002C423 /* main.m in Sources */,
+				2AD642A721417F5C0002C423 /* uppercase.m in Sources */,
+				2AD642A921417F940002C423 /* lowercase.m in Sources */,
+				2AD642AF2141844C0002C423 /* respond.m in Sources */,
+				2AD642AB2141801D0002C423 /* numberize.m in Sources */,
+				2AD642B121418AD40002C423 /* replace.m in Sources */,
+				2AD642AD214181F80002C423 /* canadianize.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
